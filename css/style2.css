@@ -1570,4 +1570,6 @@ td .mdl-checkbox__ripple-container {
 }
 
 
-
+.prayerhand{
+	background-image: url('../img/prayer-hand.png');
+}
