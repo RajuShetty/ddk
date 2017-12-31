@@ -357,7 +357,8 @@ header {
 html, body {
 	font-weight: 500;
 	font-family: 'Roboto';
-	font-size:16px;
+	font-size:18px;
+	line-height:1.5em;
 }
 h1, h2, h3, h4, h5, h6 {
     text-shadow: rgba(0,0,0,.12) 0 0 1px;
@@ -387,7 +388,7 @@ h4 {
 	margin-bottom: 11px;
 }
 p {
-	font-size: 17px;
+	font-size: 16px;
     margin: 12px 0 11px;
     font-weight: 300;
 }
@@ -401,7 +402,7 @@ span {
     border-left: 3px solid #62a8ea;
 }
 .highlight p {
-	font-size: 19px;
+	font-size: 21px;
 	line-height: 1.5;
 }
 h1.page-title {
@@ -683,7 +684,7 @@ textarea.normal {
 .drawer-header {
 	position: relative;
     height: 140px;
-	background: url(../img/user-bg.jpg) center / cover;
+	background: url(img/user-bg.jpg) center / cover;
 }
 .drawer-header img {
 	width: 48px;
