@@ -8,28 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <link rel="stylesheet" type="text/css" href="assets/css/css.css" />
-<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-<link rel="stylesheet" type="text/css" href="assets/css/page-player.css" />
-<link rel="stylesheet" type="text/css" href="assets/css/tables_bibles.css" />
- <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
- <!--Import materialize.css-->
-<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-
-<!-- CSS files from app theme-->
- <link rel="stylesheet" href="../assets/css/googlefontroboto.css" type="text/css">
-    <link rel="stylesheet" href="../assets/css/MaterialIcons.css" type="text/css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-
-    <link rel="stylesheet" href="../css/w3.css">
-
-  <!--[if lte IE 7]>
-	<link href="assets/css/iehacks.css" rel="stylesheet" type="text/css" />
-	<![endif]-->
-
-	<!--[if lt IE 9]>
-	<script src="http://htmll5shim.googlecode.com/svn/trunk/htmll5.js"></script>
-	<![endif]-->
     <script type="text/javascript">	
 	
 	function dayNumber(){
@@ -40,7 +19,6 @@
     var oneDay = 1000 * 60 * 60 * 24;
     var day = Math.floor(diff / oneDay);
     console.log('Day of year: ' + day);
-	
 	 var html   =  day + '.html';
      window.open (html,'_self',false);
 	}
@@ -48,6 +26,8 @@
 
 </head>
 <a name="mytop"></a>
+
+   <div id="deviceready"> </div>
 <body onLoad="dayNumber()">
           
 <!-- 
@@ -63,17 +43,7 @@ index nav
 </nav>--> 
 
 
-<div class="ym-wrapper ym-noprint">
-    	<div class="ym-wbox">
 
-        <div class=" ym-grid">
-        <div class="ym-g62 ym-gl breadCrumbs"> 
-		<!--a title="Home" href="../index.html" target="_top"><img src="assets/img/Home.png" width="24" height="24"/></a-->
-		</div>
-	
-	</div>
-</div>
-</div>
 </div>
 <div id="main" class="ym-clearfix" role="main">
 	<div class="ym-wrapper">
@@ -107,17 +77,12 @@ index nav
         </script>
 
 </body>
-<!--script type="text/javascript" src="assets/js/jquery-1.8.0.min.js"></script-->
-<script type="text/javascript" src="assets/js/soundmanager2.js"></script>
-<script type="text/javascript" src="assets/js/page-player.js"></script>
-<script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="assets/js/jquery-1.8.0.min.js"></script>
 <script type="text/javascript">
-
-soundManager.setup({
-  url: 'assets/swf/'
-});
-
-</script>
+        app.initialize();
+    </script>
  
 	
 </html>
