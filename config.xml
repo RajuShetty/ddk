@@ -3,12 +3,12 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "org.anudinadamanna.app"
-        version   = "1.0.8"
-		android-versionCode="10008">
-  <name>Anudinada manna</name>
+        id        = "org.kannadadailydevotion.app"
+        version   = "1"
+		android-versionCode="10000">
+  <name>Daily devotion Kannada</name>
     <description>
-             ಅನುದಿನದ ಮನ್ನ | ಕನ್ನಡ 
+             ಆತ್ಮೀಕ ಆಹಾರ | ಕನ್ನಡ 
     </description>
 
     <author href="http://mannaministry.in/" email="Rajushetty.b@gmail.com">
