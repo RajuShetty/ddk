@@ -4,8 +4,8 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "org.kannadadailydevotion.app"
-        version   = "5"
-		android-versionCode="10005">
+        version   = "6"
+		android-versionCode="10006">
   <name>Daily devotion Kannada</name>
     <description>
              ಆತ್ಮೀಕ ಆಹಾರ | ಕನ್ನಡ 
